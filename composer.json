@@ -23,6 +23,7 @@
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.8.0",
         "drupal/core-composer-scaffold": "^8.8.0",
+        "drupal/devel": "^1.2",
         "drupal/link_css": "1.x-dev",
         "drupal/omega": "^5.0@alpha",
         "drupal/tome": "^1.3",
@@ -33,7 +34,8 @@
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
-        "drupal/core-dev": "^8.8.0"
+        "drupal/core-dev": "^8.8.0",
+        "geerlingguy/drupal-vm": "^5.1"
     },
     "conflict": {
         "drupal/drupal": "*"
